@@ -45,6 +45,25 @@ margin: auto;
 margin-top: 50px;
 margin-bottom: 30px;
 }
+
+img {width: 70%;
+margin: auto;
+margin-top: 20px;
+margin-bottom: 50px;
+border-radius: 10px;
+
+animation-name: crab;
+animation-duration: 20ms; 
+animation-timing-function:linear; 
+animation-iteration-count: infinite; 
+animation-direction: alternate;
+}
+
+@keyframes crab {
+  from {translate: 10px;}
+  
+  to{translate:-10px}
+}
     
     </style>
   </head>
@@ -56,7 +75,9 @@ margin-bottom: 30px;
       <li><a href="about.html">About</a></li>
     </ul>
 
-    <h1>Home</h1>
+    <h1>About</h1>
+
+    <img src="THE CRAB.png">
 
     <div><p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
